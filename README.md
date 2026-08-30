@@ -125,6 +125,15 @@ Related neighbours in OpenSpec's community schema catalog (this schema is not li
 Issues and PRs welcome. The most useful report is one real change: what the intent artifact
 changed about your decision, or where it got in the way.
 
+## The format underneath
+
+`intent.md` is [IntentSpec](https://github.com/pathmodeio/intentspec), an open format for product
+intent, and this schema is one adapter that carries it into OpenSpec. The standard, its JSON
+Schema, and a conformance corpus live in that repository; the repo-safe evidence rule stated above
+is normative there as section 4 of the spec.
+
+You do not need this schema to use IntentSpec, and you do not need Pathmode to use either.
+
 ## License
 
 MIT.
