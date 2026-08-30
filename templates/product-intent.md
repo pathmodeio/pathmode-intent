@@ -1,3 +1,10 @@
+---
+# id and status have no section form, so a sectioned intent.md still needs these to be a valid
+# IntentSpec document (SPEC.md section 3). Replace `id` with something stable for this change.
+id: change-id
+status: draft
+---
+
 # Untitled Intent
 
 <!--

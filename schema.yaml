@@ -23,6 +23,9 @@ artifacts:
       section invisible to every tool that reads this format, including Pathmode's own preflight. Keep
       them exactly, in this order, and put your own words underneath.
 
+      - YAML frontmatter carrying `id` and `status`. These have no section form, so a file without them
+        is a useful draft but not yet a valid IntentSpec document. `status` is one of draft, validated,
+        approved, shipped, verified.
       - `# <title>` — one line naming the change.
       - `## Objective` — prose. WHO is affected and WHAT goes wrong for them today. A role, a team, an
         operator, an agent. Not "the system" and not "we".
