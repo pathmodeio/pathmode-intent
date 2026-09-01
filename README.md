@@ -6,6 +6,8 @@ in front of the proposal: **`intent.md`**, the product judgment behind the chang
 Who is affected and what problem they face, what observable outcome should change, what evidence
 or assumption supports it, and the boundaries, edge cases and checks that make it verifiable.
 
+This repository dogfoods the same artifact: [read its intent.md](intent.md).
+
 ```
 product-intent (intent.md)  ->  proposal  ->  specs  ->  design  ->  tasks
 ```
